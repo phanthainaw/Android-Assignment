@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioGroup
+        android:id = "@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/SoLe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số lẻ"/>
+        <RadioButton
+            android:id="@+id/SoChan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số chẵn"/>
+        <RadioButton
+            android:id="@+id/SoChinhPhuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số chính phương"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ShowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</LinearLayout>
